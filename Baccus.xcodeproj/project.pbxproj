@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC222C6817D61D5800F1D652 /* RBRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC222C6617D61D5800F1D652 /* RBRWebViewController.m */; };
+		AC222C6917D61D5800F1D652 /* RBRWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC222C6717D61D5800F1D652 /* RBRWebViewController.xib */; };
+		AC239DF417D8584D00C90350 /* comtesDeChampagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC239DF217D8584D00C90350 /* comtesDeChampagne.jpg */; };
+		AC239DF517D8584D00C90350 /* zarate.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC239DF317D8584D00C90350 /* zarate.gif */; };
 		AC334E1E17CFA4B900F87FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC334E1D17CFA4B900F87FA2 /* UIKit.framework */; };
 		AC334E2017CFA4B900F87FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC334E1F17CFA4B900F87FA2 /* Foundation.framework */; };
 		AC334E2217CFA4B900F87FA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC334E2117CFA4B900F87FA2 /* CoreGraphics.framework */; };
@@ -16,9 +20,22 @@
 		AC334E3017CFA4B900F87FA2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC334E2F17CFA4B900F87FA2 /* Default.png */; };
 		AC334E3217CFA4B900F87FA2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC334E3117CFA4B900F87FA2 /* Default@2x.png */; };
 		AC334E3417CFA4B900F87FA2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC334E3317CFA4B900F87FA2 /* Default-568h@2x.png */; };
+		AC334E3C17CFA52C00F87FA2 /* RBRWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC334E3B17CFA52C00F87FA2 /* RBRWineModel.m */; };
+		AC558B3817DA33B30088EECD /* RBRWineryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC558B3717DA33B30088EECD /* RBRWineryModel.m */; };
+		AC558B3B17DA38B70088EECD /* RBRWineryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC558B3A17DA38B70088EECD /* RBRWineryTableViewController.m */; };
+		AC5610F417E97A5F0016CA73 /* RBRWineViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5610F317E97A5F0016CA73 /* RBRWineViewControlleriPhone.xib */; };
+		ACFA2E4D17D38FA300BCC510 /* RBRWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA2E4B17D38FA300BCC510 /* RBRWineViewController.m */; };
+		ACFA2E4E17D38FA300BCC510 /* RBRWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFA2E4C17D38FA300BCC510 /* RBRWineViewController.xib */; };
+		ACFA2E5017D39FBA00BCC510 /* splitView_score_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA2E4F17D39FBA00BCC510 /* splitView_score_glass@2x.png */; };
+		ACFA2E5317D3A08300BCC510 /* bembibre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACFA2E5217D3A08300BCC510 /* bembibre.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC222C6517D61D5800F1D652 /* RBRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRWebViewController.h; sourceTree = "<group>"; };
+		AC222C6617D61D5800F1D652 /* RBRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRWebViewController.m; sourceTree = "<group>"; };
+		AC222C6717D61D5800F1D652 /* RBRWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBRWebViewController.xib; sourceTree = "<group>"; };
+		AC239DF217D8584D00C90350 /* comtesDeChampagne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comtesDeChampagne.jpg; sourceTree = "<group>"; };
+		AC239DF317D8584D00C90350 /* zarate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zarate.gif; sourceTree = "<group>"; };
 		AC334E1A17CFA4B900F87FA2 /* Baccus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baccus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC334E1D17CFA4B900F87FA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AC334E1F17CFA4B900F87FA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +49,18 @@
 		AC334E2F17CFA4B900F87FA2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AC334E3117CFA4B900F87FA2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AC334E3317CFA4B900F87FA2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC334E3A17CFA52C00F87FA2 /* RBRWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRWineModel.h; sourceTree = "<group>"; };
+		AC334E3B17CFA52C00F87FA2 /* RBRWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRWineModel.m; sourceTree = "<group>"; };
+		AC558B3617DA33B30088EECD /* RBRWineryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRWineryModel.h; sourceTree = "<group>"; };
+		AC558B3717DA33B30088EECD /* RBRWineryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRWineryModel.m; sourceTree = "<group>"; };
+		AC558B3917DA38B70088EECD /* RBRWineryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRWineryTableViewController.h; sourceTree = "<group>"; };
+		AC558B3A17DA38B70088EECD /* RBRWineryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRWineryTableViewController.m; sourceTree = "<group>"; };
+		AC5610F317E97A5F0016CA73 /* RBRWineViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBRWineViewControlleriPhone.xib; sourceTree = "<group>"; };
+		ACFA2E4A17D38FA300BCC510 /* RBRWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRWineViewController.h; sourceTree = "<group>"; };
+		ACFA2E4B17D38FA300BCC510 /* RBRWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRWineViewController.m; sourceTree = "<group>"; };
+		ACFA2E4C17D38FA300BCC510 /* RBRWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBRWineViewController.xib; sourceTree = "<group>"; };
+		ACFA2E4F17D39FBA00BCC510 /* splitView_score_glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splitView_score_glass@2x.png"; sourceTree = "<group>"; };
+		ACFA2E5217D3A08300BCC510 /* bembibre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bembibre.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +107,11 @@
 		AC334E2317CFA4B900F87FA2 /* Baccus */ = {
 			isa = PBXGroup;
 			children = (
+				ACFA2E5117D39FC300BCC510 /* Resources */,
 				AC334E2C17CFA4B900F87FA2 /* RBRAppDelegate.h */,
 				AC334E2D17CFA4B900F87FA2 /* RBRAppDelegate.m */,
+				ACFA2E4917D38F4100BCC510 /* Controlers */,
+				AC334E3D17CFA53600F87FA2 /* Models */,
 				AC334E2417CFA4B900F87FA2 /* Supporting Files */,
 			);
 			path = Baccus;
@@ -97,6 +129,45 @@
 				AC334E3317CFA4B900F87FA2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC334E3D17CFA53600F87FA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC558B3617DA33B30088EECD /* RBRWineryModel.h */,
+				AC558B3717DA33B30088EECD /* RBRWineryModel.m */,
+				AC334E3A17CFA52C00F87FA2 /* RBRWineModel.h */,
+				AC334E3B17CFA52C00F87FA2 /* RBRWineModel.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ACFA2E4917D38F4100BCC510 /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				AC222C6517D61D5800F1D652 /* RBRWebViewController.h */,
+				AC222C6617D61D5800F1D652 /* RBRWebViewController.m */,
+				AC222C6717D61D5800F1D652 /* RBRWebViewController.xib */,
+				ACFA2E4A17D38FA300BCC510 /* RBRWineViewController.h */,
+				ACFA2E4B17D38FA300BCC510 /* RBRWineViewController.m */,
+				ACFA2E4C17D38FA300BCC510 /* RBRWineViewController.xib */,
+				AC558B3917DA38B70088EECD /* RBRWineryTableViewController.h */,
+				AC558B3A17DA38B70088EECD /* RBRWineryTableViewController.m */,
+				AC5610F317E97A5F0016CA73 /* RBRWineViewControlleriPhone.xib */,
+			);
+			name = Controlers;
+			sourceTree = "<group>";
+		};
+		ACFA2E5117D39FC300BCC510 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA2E5217D3A08300BCC510 /* bembibre.jpg */,
+				AC239DF217D8584D00C90350 /* comtesDeChampagne.jpg */,
+				AC239DF317D8584D00C90350 /* zarate.gif */,
+				ACFA2E4F17D39FBA00BCC510 /* splitView_score_glass@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +226,13 @@
 				AC334E3017CFA4B900F87FA2 /* Default.png in Resources */,
 				AC334E3217CFA4B900F87FA2 /* Default@2x.png in Resources */,
 				AC334E3417CFA4B900F87FA2 /* Default-568h@2x.png in Resources */,
+				ACFA2E4E17D38FA300BCC510 /* RBRWineViewController.xib in Resources */,
+				ACFA2E5017D39FBA00BCC510 /* splitView_score_glass@2x.png in Resources */,
+				ACFA2E5317D3A08300BCC510 /* bembibre.jpg in Resources */,
+				AC222C6917D61D5800F1D652 /* RBRWebViewController.xib in Resources */,
+				AC239DF417D8584D00C90350 /* comtesDeChampagne.jpg in Resources */,
+				AC239DF517D8584D00C90350 /* zarate.gif in Resources */,
+				AC5610F417E97A5F0016CA73 /* RBRWineViewControlleriPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +245,11 @@
 			files = (
 				AC334E2A17CFA4B900F87FA2 /* main.m in Sources */,
 				AC334E2E17CFA4B900F87FA2 /* RBRAppDelegate.m in Sources */,
+				AC334E3C17CFA52C00F87FA2 /* RBRWineModel.m in Sources */,
+				ACFA2E4D17D38FA300BCC510 /* RBRWineViewController.m in Sources */,
+				AC222C6817D61D5800F1D652 /* RBRWebViewController.m in Sources */,
+				AC558B3817DA33B30088EECD /* RBRWineryModel.m in Sources */,
+				AC558B3B17DA38B70088EECD /* RBRWineryTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +328,12 @@
 		AC334E3817CFA4B900F87FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Baccus/Baccus-Prefix.pch";
 				INFOPLIST_FILE = "Baccus/Baccus-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -256,10 +341,12 @@
 		AC334E3917CFA4B900F87FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Baccus/Baccus-Prefix.pch";
 				INFOPLIST_FILE = "Baccus/Baccus-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,6 +370,7 @@
 				AC334E3917CFA4B900F87FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
